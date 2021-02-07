@@ -1,0 +1,322 @@
+---
+title             : "Supplementary Materials: Dog and owner characteristics predict training success"
+shorttitle        : "Supplementary Materials"
+
+author: 
+  - name          : "Jeffrey R. Stevens"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "B83 East Stadium, Center for Brain, Biology & Behavior, University of Nebraska-Lincoln, Lincoln, Nebraska 68588, USA"
+    email         : "jeffrey.r.stevens@gmail.com"
+  - name          : "London M. Wolff"
+    affiliation   : "1"
+  - name          : "Megan Bosworth"
+    affiliation   : "1"
+  - name          : "Jill Morstad"
+    affiliation   : "2"
+
+affiliation:
+  - id            : "1"
+    institution   : "University of Nebraska-Lincoln"
+  - id            : "2"
+    institution   : "Union College"
+    
+authornote: >
+  Version 2021-02-07.  Published as: Stevens, J. R., Wolff, L. M., Bosworth, M., & Morstad, J. (2021). Dog and owner characteristics predict training success. _Animal Cognition_. https://doi.org/10.1007/s10071-020-01458-0.
+
+
+bibliography      : [r-references.bib,stevens_etal_2021.bib]
+csl               : "stevens_etal_2021.csl"
+
+
+figsintext        : yes
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+lineno            : no
+
+header-includes   : 
+- \usepackage[justification=Centering,position=top]{subfig}
+- \usepackage{float}
+- \usepackage[section]{placeins}
+
+class             : "doc"
+keep_tex          : "TRUE"
+output            : papaja::apa6_pdf
+---
+
+```{r include = FALSE, .highlight[cache = TRUE]}
+library(kableExtra)
+library(papaja)
+library(here)
+source(here("R/stevens_etal_2021_rcode.R"))
+```
+
+
+\renewcommand{\thetable}{S\arabic{table}}
+\setcounter{table}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\setcounter{figure}{0}
+\newpage
+
+# Surveys (in the order experienced by participants)
+
+## Dog demographics
+- What is your dog's name?
+- How old is your dog?
+- How old was the dog when you acquired him/her?
+- What breed is your dog?
+- What is your dog’s sex? [Male, Female]
+- Is your dog neutered or spayed? [Yes, No]
+- How did you acquire your dog? [Purchased from breeder, Bred yourself, Adopted, Other]
+
+## Training
+- On a scale of 1 to 10, with 10 being the best, how well trained do you think your dog is?
+- As a puppy, did your dog go to socialization classes? [Yes, No, I don't know]
+- Do you train your dog at home? [Yes, No]
+- Before this class, how often have you attended dog training classes? [More than once a week, Once a week, Once a month, A few times a year, Never]
+- Which of the following commands does your dog know?  [Sit, Stay, Lie Down, Turn Around, Roll Over, Stand, Speak, Fetch, Come (Recall), None]
+- On average, when training your dog how much time per week do you spend? [None at all, Less than 30 minutes, 30 - 60 minutes, 1 - 3, hours, 3 - 6 hours, 6 - 10 hours, 10 or more hours]
+- On a scale of 1 to 10, with 10 being the best, how well trained do you think the average dog is?
+
+## Dog feeding and exercise
+
+- How often do you exercise your dog? Can include walk, training session, dog school, etc.. [Three or more times a day, Twice a day, Once a day, A few times a week, Once a week, Once a month]
+- Is your dog ever allowed to go off leash when exercising? [Three or more times a day, Once or twice a day, A few times a week, Once a week, A few times a month, Very rarely, Never]
+- How many times a day do you feed your dog? [Less than once a day, Once a day, Twice a day, All day (free choice)]
+- Do you feed your dog dry dog food, wet dog food, or a mix? [Dry dog food, Wet dog food, Mix]
+- Do you feed your dog table scraps? [Never, A few times a month, A few times a week, Every day]
+
+## Dog behavior questions [@Bennett.Rohlf.2007]
+
+How frequently does your dog engage in the following behaviors? [1-7 scale with 1=Never, 4=Sometimes, 7=Always]
+
+### Disobedient subscale
+
+- My dog does what he/she is told
+- My dog will stay when asked
+- My dog has good manners
+- My dog will sit on command
+- My dog will come when called
+- My dog soils in the house
+
+### Aggressive subscale
+
+- My dog is friendly to strangers
+- My dog is friendly to other dogs
+- My dog is aggressive to people he/she knows
+- My dog is aggressive to strangers
+- My dog is aggressive to other dogs
+- My dog is aggressive to people he/she knows
+- My dog is aggressive to strangers
+- My dog is aggressive to other dogs
+- My dog is friendly to people he/she knows
+
+### Nervous subscale
+
+- My dog is nervous
+- My dog startles easily
+- My dog is timid in new situations
+- My dog is confident in unfamiliar places
+
+### Destructive subscale
+
+- My dog digs holes inappropriately
+- My dog chews things he/she shouldn’t
+- My dog is relaxed most of the time
+- My dog doesn’t mind being left alone
+
+### Excitable subscale
+
+- My dog pulls on the leash when walking
+- My dog jumps up on people
+- My dog shows inappropriate sexual behaviors
+- My dog barks excessively
+
+## Dog obedience and problem behaviors [@Hiby.etal.2004]
+
+Rate your dog’s obedience on a scale of 1-5 (5 being the most obedient) for the following:
+
+- Toilet training
+- Chewing household objects
+- Stealing food or other objects
+- Coming when called 
+- Sitting on commands 
+- Give up an object on commands
+- Walk to heel
+- Overall obedience
+
+Indicate whether your dog has shown the following currently, in the past, or never.
+
+- Barking at people
+- Aggression towards people
+- Barking at dogs
+- Nipping at dogs
+- Growling at dogs
+- Fear in a few situations
+- Fear in many situations
+- Excitement in a few situations
+- Excitement in many situations
+- Separation-related behaviors
+- Inappropriate mounting
+- Repetitive behaviors
+- Eating non-foodstuffs
+
+## Dog Impulsivity Assessment Scale [@Wright.etal.2011]
+
+Indicate whether you agree or disagree to the following statements about your dog: [Strongly agree,  Mainly agree, Partly agree/partly disagree, Mainly disagree, Strongly disagree, Don't know/not applicable]
+
+### Behavioral regulation subscale
+
+- My dog shows extreme physical signs when excited (e.g., drooling, panting, raising hackles, urination, licking lips, widening of eyes)
+- When my dog gets very excited it can lead to fixed repetitive behavior (i.e., an action that is repeated in the same way over and over again), such as tail chasing or spinning around in circles
+- I would consider my dog to be very impulsive (i.e., has sudden, strong urges to act; acts without forethought; acts without considering effects of actions)
+- My dog does not think before it acts (e.g., would steal food without first looking to see if someone is watching)
+- My dog can be very persistent (e.g., will continue to do something even if it knows it will get punished or told off)
+- My dog is easy to train
+- My dog calms down very quickly after being excited
+- My dog appears to have a lot of control over how it responds
+- My dog is not very patient (e.g., gets agitated waiting for its food, or waiting to go out for a walk)
+- My dog seems to get excited for no reason
+
+### Aggression subscale
+
+- My dog doesn't like to be approached or hugged
+- My dog becomes aggressive (e.g., growl, snarl, snap, bite) when excited
+- My dog may become aggressive (e.g., growl, snarl, snap, bite) if frustrated with something
+- My dog is not keen to go into new situations
+- My dog is very interested in new things and new places
+
+### Responsiveness subscale
+
+- My dog appears to be 'sorry' after it has done something wrong
+- My dog takes a long time to lose interest in new things
+- My dog reacts very quickly
+- My dog is easy to train
+- My dog is very interested in new things and new places
+
+## Monash Dog Owner Relationship Scale (Dwyer et al., 2006)
+
+Indicate how often the following activities occur: [Multiple times a day, Once a day, Two-three times per week, Once per week, Once per month, Once per year, Never]
+
+- How often do you play games with your dog?
+- How often do you take your dog to visit people?
+- How often do you give your dog food treats?
+- How often do you kiss your dog?
+- How often do you take your dog in the car?
+- How often do you hug your dog?
+- How often do you buy your dog presents?
+- How often do you have your dog with you while relaxing, i.e., watching TV?
+- How often do you groom your dog?
+
+## Time with dog
+
+- On a typical weekday, how many hours is someone at home with the dog? [1-5 hours, 5-10 hours, 10-15 hours, All day]
+- On a typical weekend, how many hours is someone at home with the dog? [1-5 hours, 5-10 hours, 10-15 hours, All day]
+- On a typical weekday, how much time does someone spend interacting with the dog (walking, playing, training, etc.)? [Most of the day, A moderate amount, A little, None at all]
+- On a typical weekend, how much time does someone spend interacting with the dog (walking, playing, training, etc.)? [Most of the day, A moderate amount, A little, None at all]
+
+## Owner personality [@Gosling.etal.2003]
+
+I see myself as: [1-5 scale with 1=Disagree strongly, 3=Neutral, 5=Agree strongly]
+
+- Extroverted, enthusiastic
+- Critical, quarrelsome
+- Dependable, self-disciplined
+- Anxious, easily upset
+- Open to new experiences, complex
+- Reserved, quiet
+- Sympathetic, warm
+- Disorganized, careless
+- Calm, emotionally stable
+- Conventional, uncreative
+
+## Life Orientation Test Revised [@Scheier.etal.1994]
+
+On a scale of 1-5, indicate if you agree or disagree with the following statements [1-5 scale with 1=Disagree strongly, 3=Neutral, 5=Agree strongly]
+
+- In uncertain times, I usually expect the best.
+- It’s easy for me to relax.
+- If something can go wrong for me, it will.
+- I’m always optimistic about my future.
+- I enjoy my friends a lot.
+- It’s important for me to keep busy.
+- I hardly ever expect things to go my way.
+- I don’t get upset too easily.
+- I rarely count on good things happening to me.
+- Overall, I expect more good things to happen to me than bad.
+
+## Perceived Stress Scale [@Cohen.etal.1983]
+
+In the last month, how often have you: [Never, Almost never, Sometimes, Fairly often, Very often]
+
+- Been upset because of something that happened unexpectedly?
+- Felt that you were unable to control the important things in your life?
+- Felt nervous and “stressed”?
+- Felt confident about your ability to handle your personal problems?
+- Felt that things were going your way?
+- Found that you could not cope with all the things that you had to do?
+- Been able to control irritations in your life?
+- Felt that you were on top of things?
+- Been angered because of things that were outside of your control?
+- Felt difficulties were piling up so high that you could not overcome them?
+
+## Cognitive Reflection Task [@Frederick.2005]
+
+- A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball.  How much does the ball cost? [$0.05, $0.10, $0.50, $1.00]
+- If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets. [5 minutes, 10 minutes, 20 minutes, 100 minutes]
+- In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake. [24 days, 36 days, 40 days, 47 days]
+
+## Berlin Numeracy Test [@Cokely.etal.2012]
+
+- Imagine you are throwing a five-sided die 50 times. On average, out of these 50 throws, how many would this five-sided show an odd number (1, 3 or 5)? 	[5 out of 50 throws, 25 out of 50 throws, 30 out of 50 throws, None of the above]
+- Out of 1,000 people in a small town, 500 are members of a choir. Out of these 500 members in the choir, 100 are men. Out of these 500 inhabitants that are not in the choir, 300 are men. What is the probability that a randomly drawn man is a member of the choir? Please indicate the probability in percent. [10%, 25%, 40%, None of the above]
+- Imagine you are throwing a six-sided loaded die (in a loaded die, landing on some side is more likely than others). The probability that the die shows a 6 is twice as high as the probability of each of the other numbers. On average, out of 70 throws how many times would the die show the number 6? [20 out of 70 throws, 23 out of 70 throws, 35 out of 70 throws, None of the above]
+- In a forest, 20% of the mushrooms are red, 50% brown, and 30% white. A red mushroom is poisonous with a probability of 20%. A mushroom that is not red is poisonous with a probability of 5%. What is the probability that a poisonous mushroom in the forest is red? [4%, 20%, 50%, None of the above]
+
+## Owner demographics
+
+- Gender [Male, Female, Other]
+- Marital status [Single, Married, Separated/divorced, Widowed]
+- Do you have children in the family? [Yes, No]
+- Do you have children younger than 6 years old in the family? [Yes, No]
+- Do you have other dogs? [Yes, No]
+- Do you have other pets? [Yes, No]
+- Do you have other (non-pet) animals (e.g., farm animals)? [Yes, No]
+- Are you a first time dog owner? [Yes, No]
+- What level of responsibility for the dog do you have? [Primary, Shared, Other]
+- Do you prioritize dog shows highly? [Yes, No]
+- Do you prioritize dog training highly?  [Yes, No]
+- What is your annual household income? [Less than $25,000, $25,000- $49,999, $50,000- $74,999, $75,000- $99,999, More than $100,000, I would rather not say]
+- Labels are often misleading, but in general do you consider yourself liberal, conservative, or something in between? [Liberal, Conservative, In between]
+- In general, do your consider yourself a Democrat, a Republican, or an Independent? [Democrat, Republican, Independent]
+
+\clearpage
+\newpage
+\clearpage
+
+<!--(Table S1)-->
+```{r cgc-reg-table}
+apa_table(cgc_glm_apa$table, 
+          caption = "Logistic regression table for survey predictors of Canine Good Citizen test", 
+          align = c("l", rep("r", 4)),
+          placement = "h"
+          )
+```
+
+
+
+<!--(Figure S1)-->
+(ref:predictor-hist-cap) Histograms of numeric predictors. 
+
+```{r predictor-hist, fig.cap = "(ref:predictor-hist-cap)", out.width = "100%"}
+knitr::include_graphics(path = c(here("figures/predictor_histograms.png")))
+```
+
+<!--(Figure S2)-->
+(ref:cgc-alg-acc-cap) Predictive accuracy of algorithms for Canine Good Citizen training success. Closed circles represent mean proportion of dog's test success predicted correctly by each algorithm. Error bars represent 95% confidence intervals.
+
+```{r cgc-alg-acc, fig.cap = "(ref:cgc-alg-acc-cap)", out.width = "70%", fig.align = "center"}
+knitr::include_graphics(path = c(here("figures/cgc_accuracy_algorithm.png")))
+```
+# References
