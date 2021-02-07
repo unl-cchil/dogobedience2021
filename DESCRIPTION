@@ -1,15 +1,18 @@
 Package: dogobedience2021
-Title: What the Package Does (One Line, Title Case)
+Title: Reproducible Research Materials for Dog Obedience Study 2021
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Jeffrey R.",
+           family = "Stevens",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "jeffrey.r.stevens@gmail.com",
+           comment = c(ORCID = "0000-0003-2375-1360"))
+Description: This provides the reproducible research materials
+  (including data, R scripts, and R Markdown files) for 
+  Stevens, J. R., Wolff, L. M., Bosworth, M., & Morstad, J. (2021). 
+  Dog and owner characteristics predict training success. 
+  Animal Cognition. https://doi.org/10.1007/s10071-020-01458-0.
+License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
