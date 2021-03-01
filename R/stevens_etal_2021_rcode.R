@@ -86,24 +86,35 @@
 ## ---
 
 # Load libraries ----------------------------
-
-library(bayestestR)   # needed for estimating Bayes factors from linear models
-library(ggbeeswarm)   # needed for beeswarm plots
-library(lme4)         # needed for GLMMs
-library(caret)        # needed for predictor correlations
-library(rpart)        # needed for CART algorithm
-library(C50)          # needed for C5.0 algorithm
-library(randomForest) # needed for Random Forest algorithm
-library(e1071)        # needed for skewness calculations
-library(foreach)      # needed for iteration
-library(ggcorrplot)   # needed for pairwise correlation plot
-library(patchwork)    # needed for subfigure placement
-library(tidymodels)   # needed for machine learning analysis
-library(vip)          # needed for calculating variable importance
-library(papaja)       # needed for APA formatting
-library(tidyverse)    # needed for data processing
-library(psych)        # needed for calculating reliability
-library(here)         # needed for accessing folders
+# To ensure that this script runs with the same version of packages that it
+# was built with, you can install and use groundhog. This will install and
+# load versions of packages from the date that the project was finalized.
+# Note this will install the dependencies on the packages below, which may
+# take a long time.
+# To run using your current package version instead, remove the 'groundhog.' and
+# ', groundhog_day)' from each line, e.g., library("bayestestR").
+library("groundhog")    # needed for loading all packages for specified date
+groundhog_day <- "2021-02-07"
+groundhog.library("bayestestR", groundhog_day)   # needed for estimating Bayes factors from linear models
+groundhog.library("ggbeeswarm", groundhog_day)   # needed for beeswarm plots
+groundhog.library("lme4", groundhog_day)         # needed for GLMMs
+groundhog.library("caret", groundhog_day)        # needed for predictor correlations
+groundhog.library("rpart", groundhog_day)        # needed for CART algorithm
+groundhog.library("C50", groundhog_day)          # needed for C5.0 algorithm
+groundhog.library("randomForest", groundhog_day) # needed for Random Forest algorithm
+groundhog.library("e1071", groundhog_day)        # needed for skewness calculations
+groundhog.library("foreach", groundhog_day)      # needed for iteration
+groundhog.library("ggcorrplot", groundhog_day)   # needed for pairwise correlation plot
+groundhog.library("patchwork", groundhog_day)    # needed for subfigure placement
+groundhog.library("broom", "2021-02-07")         # needed for machine learning analysis
+groundhog.library("rsample", "2021-02-07")       # needed for machine learning analysis
+groundhog.library("tibble", "2021-02-07")        # needed for machine learning analysis
+groundhog.library("tidymodels", groundhog_day)   # needed for machine learning analysis
+groundhog.library("vip", groundhog_day)          # needed for calculating variable importance
+groundhog.library("tidyverse", groundhog_day)    # needed for data processing
+groundhog.library("psych", groundhog_day)        # needed for calculating reliability
+groundhog.library("here", groundhog_day)         # needed for accessing folders
+library("papaja")       # needed for APA formatting (available at https://github.com/crsh/papaja)
 
 # Define functions ----------------------------
 
