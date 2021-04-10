@@ -25,7 +25,7 @@ This repository provides the reproducible research materials for our project tha
 # Citation
 If you use any of these materials, please cite:
 
-Stevens, J. R., Wolff, L. M., Bosworth, M., & Morstad, J. (2021).   Dog and owner characteristics predict training success.   _Animal Cognition_. https://doi.org/10.1007/s10071-020-01458-0.
+Stevens, J. R., Wolff, L. M., Bosworth, M., & Morstad, J. (2021).   Dog and owner characteristics predict training success.   _Animal Cognition_, 24(2) 219–230 https://doi.org/10.1007/s10071-020-01458-0.
 
 # Summary
 

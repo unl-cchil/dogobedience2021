@@ -11,11 +11,9 @@ Description: This provides the reproducible research materials
   (including data, R scripts, and R Markdown files) for 
   Stevens, J. R., Wolff, L. M., Bosworth, M., & Morstad, J. (2021). 
   Dog and owner characteristics predict training success. 
-  Animal Cognition. https://doi.org/10.1007/s10071-020-01458-0.
+  Animal Cognition, 24(2) 219–230. https://doi.org/10.1007/s10071-020-01458-0.
 License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
 URL: https://github.com/unl-cchil/dogobedience2021
 BugReports: https://github.com/unl-cchil/dogobedience2021/issues
