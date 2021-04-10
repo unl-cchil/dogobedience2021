@@ -93,27 +93,26 @@
 # take a long time.
 # To run using your current package version instead, remove the 'groundhog.' and
 # ', groundhog_day)' from each line, e.g., library("bayestestR").
-library("groundhog")    # needed for loading all packages for specified date
-groundhog_day <- "2021-02-07"
-groundhog.library("bayestestR", groundhog_day)   # needed for estimating Bayes factors from linear models
-groundhog.library("ggbeeswarm", groundhog_day)   # needed for beeswarm plots
-groundhog.library("lme4", groundhog_day)         # needed for GLMMs
-groundhog.library("caret", groundhog_day)        # needed for predictor correlations
-groundhog.library("rpart", groundhog_day)        # needed for CART algorithm
-groundhog.library("C50", groundhog_day)          # needed for C5.0 algorithm
-groundhog.library("randomForest", groundhog_day) # needed for Random Forest algorithm
-groundhog.library("e1071", groundhog_day)        # needed for skewness calculations
-groundhog.library("foreach", groundhog_day)      # needed for iteration
-groundhog.library("ggcorrplot", groundhog_day)   # needed for pairwise correlation plot
-groundhog.library("patchwork", groundhog_day)    # needed for subfigure placement
-groundhog.library("broom", "2021-02-07")         # needed for machine learning analysis
-groundhog.library("rsample", "2021-02-07")       # needed for machine learning analysis
-groundhog.library("tibble", "2021-02-07")        # needed for machine learning analysis
-groundhog.library("tidymodels", groundhog_day)   # needed for machine learning analysis
-groundhog.library("vip", groundhog_day)          # needed for calculating variable importance
-groundhog.library("tidyverse", groundhog_day)    # needed for data processing
-groundhog.library("psych", groundhog_day)        # needed for calculating reliability
-groundhog.library("here", groundhog_day)         # needed for accessing folders
+# library("groundhog")    # needed for loading all packages for specified date
+# groundhog_day <- "2021-04-01"
+library("bayestestR")   # needed for estimating Bayes factors from linear models
+library("lme4")         # needed for GLMMs
+library("caret")        # needed for predictor correlations
+library("rpart")        # needed for CART algorithm
+library("C50")          # needed for C5.0 algorithm
+library("randomForest") # needed for Random Forest algorithm
+library("e1071")        # needed for skewness calculations
+library("foreach")      # needed for iteration
+library("broom")         # needed for machine learning analysis
+library("tidyverse")    # needed for data processing
+library("rsample")       # needed for machine learning analysis
+library("tidymodels")   # needed for machine learning analysis
+library("ggcorrplot")   # needed for pairwise correlation plot
+library("patchwork")    # needed for subfigure placement
+library("vip")          # needed for calculating variable importance
+library("ggbeeswarm")   # needed for beeswarm plots
+library("psych")        # needed for calculating reliability
+library("here")         # needed for accessing folders
 library("papaja")       # needed for APA formatting (available at https://github.com/crsh/papaja)
 
 # Define functions ----------------------------
