@@ -112,3 +112,57 @@ To reproduce these results, first clone the repository.  Then, open `stevens_eta
 
 Once the script runs without errors, you can compile the R Markdown document `stevens_etal_2021.Rmd.`  Open this file in RStudio and ensure that you have packages {knitr} and {rmarkdown} installed.  Once installed, use knitr to compile the document (control-shift-k).  Use the same process to compile `stevens_etal_2021_SM.Rmd`.
  
+
+# Dataset Metadata
+The following table is necessary for this dataset to be indexed by search
+engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
+<div itemscope itemtype="http://schema.org/Dataset">
+<table>
+<tr>
+<th>property</th>
+<th>value</th>
+</tr>
+<tr>
+<td>name</td>
+<td><code itemprop="name">Dog and owner characteristics predict training success dataset</code></td>
+</tr>
+<tr>
+<td>description</td>
+<td><code itemprop="description">The dataset from the paper [Dog and owner characteristics predict training success](https://doi.org/10.1007/s10071-020-01458-0). We collected survey, behavioral, and hormonal data from 99 dog/owner pairs from the Prairie Skies Dog Training Canine Good Citizen classes from Jan 2018 − Oct 2019. We generated three data files: one for the primary survey, behavioral, and hormonal measures for each dog/owner pair, one with the survey item responses for calculating internal consistency reliability, and one with the behavioral data scores for calculating inter-rater reliability. For the primary analysis data file, each row represents all of a single participant's responses. For the survey item data file, each row represents a participant's responses to a particular survey. For the behavioral task data, each row represents a dog's responses for a single session.</code></td>
+</tr>
+</tr>
+<tr>
+<td>url</td>
+<td><code itemprop="url">https://github.com/unl-cchil/dogobedience2021</code></td>
+</tr>
+<tr>
+<td>sameAs</td>
+<td><code itemprop="sameAs">https://github.com/unl-cchil/dogobedience2021</code></td>
+</tr>
+<tr>
+<td>citation</td>
+<td><code itemprop="citation">https://doi.org/10.1007/s10071-020-01458-0</code></td>
+</tr>
+<tr>
+<td>license</td>
+<td>
+<div itemscope itemtype="http://schema.org/CreativeWork" itemprop="license">
+<table>
+<tr>
+<th>property</th>
+<th>value</th>
+</tr>
+<tr>
+<td>name</td>
+<td><code itemprop="name">CC BY-SA 4.0</code></td>
+</tr>
+<tr>
+<td>url</td>
+<td><code itemprop="url">https://creativecommons.org/licenses/by-sa/4.0/</code></td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
